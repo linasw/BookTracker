@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookTrackerUI", "BookTrackerUI\BookTrackerUI.csproj", "{5C001775-627A-462B-8E59-A39CE4628429}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookTrackerDB", "BookTrackerDB\BookTrackerDB.sqlproj", "{7FD1AF39-1602-40E2-ABEB-D35DE8B488C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C001775-627A-462B-8E59-A39CE4628429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C001775-627A-462B-8E59-A39CE4628429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C001775-627A-462B-8E59-A39CE4628429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C001775-627A-462B-8E59-A39CE4628429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD1AF39-1602-40E2-ABEB-D35DE8B488C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD1AF39-1602-40E2-ABEB-D35DE8B488C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD1AF39-1602-40E2-ABEB-D35DE8B488C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7FD1AF39-1602-40E2-ABEB-D35DE8B488C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD1AF39-1602-40E2-ABEB-D35DE8B488C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD1AF39-1602-40E2-ABEB-D35DE8B488C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FE07A02-100C-40AD-AB5C-07AD71358F84}
+	EndGlobalSection
+EndGlobal

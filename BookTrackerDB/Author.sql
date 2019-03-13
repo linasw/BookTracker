@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Author]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[FullName] VARCHAR(50) NOT NULL,
+)

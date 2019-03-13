@@ -1,0 +1,50 @@
+﻿<Window x:Class="BookTrackerUI.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookTrackerUI.Views"
+        mc:Ignorable="d" FontSize="18"
+        Title="Book Tracker" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <!-- ROW 1 -->
+        <Button Grid.Row="1" Grid.Column="1" x:Name="AddNew"
+                Content="Add new book" Margin="0,0,0,10" />
+        <ContentControl Grid.Row="1" Grid.Column="3" Grid.RowSpan="5"
+                        x:Name="ActiveItem"/>
+
+        <!-- ROW 2 -->
+        <Button Grid.Row="2" Grid.Column="1" x:Name="LoadAllBooks"
+                Content="Show all books" Margin="0,0,0,10"/>
+        
+        <!-- ROW 3 -->
+        <Button Grid.Row="3" Grid.Column="1" x:Name="LoadReadBooks"
+                Content="Show read books" Margin="0,0,0,10"/>
+
+        <!-- ROW 4 -->
+        <Button Grid.Row="4" Grid.Column="1" x:Name="LoadNotReadBooks"
+                Margin="0,0,0,10" MaxWidth="150">
+            <Button.Content>
+                <TextBlock TextWrapping="Wrap" Text="Show not read books" 
+                           TextAlignment="Center" />
+            </Button.Content>
+        </Button>
+    </Grid>
+</Window>
