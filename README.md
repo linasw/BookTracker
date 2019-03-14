@@ -1,6 +1,6 @@
 # Book Tracker
 
-!!! STILL IN PROGRESS !!!
+!!! STILL IN PROGRESS !!!  
 Book Tracker is a simple app coded in C# made to track your read/to be read books  
 It uses [Caliburn.Micro](https://caliburnmicro.com/) framework to make work with WPF easier and [Entity Framework](https://docs.microsoft.com/en-us/ef/) to help out with database entities
 
