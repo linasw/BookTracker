@@ -10,7 +10,7 @@ namespace BookTrackerUI.ViewModels
 {
     public class ShellViewModel : Conductor<object>
     {
-        BookTrackerDBEntities db;
+        private BookTrackerDBEntities db;
 
         public ShellViewModel()
         {
@@ -34,7 +34,7 @@ namespace BookTrackerUI.ViewModels
 
         public void AddNew()
         {
-            //ADDS NEW BOOK
+            ActivateItem(new AddNewBookViewModel());
         }
     }
 }

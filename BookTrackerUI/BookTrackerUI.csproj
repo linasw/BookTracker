@@ -103,10 +103,14 @@
     <Compile Include="Rating.cs">
       <DependentUpon>BTDBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\AddNewBookViewModel.cs" />
     <Compile Include="ViewModels\AllBooksViewModel.cs" />
     <Compile Include="ViewModels\NotReadBooksViewModel.cs" />
     <Compile Include="ViewModels\ReadBooksViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="Views\AddNewBookView.xaml.cs">
+      <DependentUpon>AddNewBookView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AllBooksView.xaml.cs">
       <DependentUpon>AllBooksView.xaml</DependentUpon>
     </Compile>
@@ -159,6 +163,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Views\AddNewBookView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\AllBooksView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
